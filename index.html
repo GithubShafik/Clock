@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* background-image: url(/back.webp) ; */
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .circle{
+            background: white ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 800px;
+            width: 800px;
+            border: 30px solid rgb(32, 29, 29);
+            border-radius: 50%;
+            position: relative;
+            margin: auto ;
+            margin-top: 45px;
+            box-shadow: 2px 0px 30px rgb(231, 225, 225) , inset 3px 2px 70px rgb(211, 145, 145);
+        }
+        .point{
+            height: 800px;
+            width: 15px;
+        }
+        .p1{
+            position: absolute;
+            left: 398px;
+        }
+        .p2{
+            position: absolute;
+            left: 392px;
+            top: 7px;
+            transform: rotate(90deg);
+        }
+        .p3{
+            position: absolute;
+            left: 400px;
+            top: 4px;
+            transform: rotate(31deg);
+        }
+        .p4{
+            position: absolute;
+            left: 395px;
+            top: 4px;
+            transform: rotate(62deg);
+        }
+        .p5{
+            position: absolute;
+            left: 389px;
+            top: 4px;
+            transform: rotate(121deg);
+        }
+        .p6{
+            position: absolute;
+            left: 400px;
+            top: -6px;
+            transform: rotate(151deg);
+        }
+        .two{
+            justify-content: space-between;
+            background-color: black;
+            width: 7px;
+            height: 30px;
+            margin-top: 652px;
+            margin-left: 4px ;
+        }
+        .one{
+
+            justify-content: space-between;
+            background-color: black;
+            width: 7px;
+            height: 30px;
+            margin-top:40px ;
+            margin-left: 4px ;
+        }
+        .analog1{
+            height: 300px;
+            width: fit-content;
+        }
+        .analog2{
+            height: 400px;
+            width: fit-content;
+        }
+        .analog3{
+            height: 200px;
+            width: fit-content;
+        }
+        .analog{
+            height: 800px;
+            width: 11px;
+        }
+        .a{
+            position: absolute;
+            left: 396px;
+            transform: rotate( 75deg);
+            animation: sec 3600s steps(3600 , end) infinite;
+        }
+        .b{
+           position: absolute;
+            left: 396px;
+            transform: rotate( 85deg);
+            animation: sec 60s steps(60 , end) infinite;
+        }
+        .c{
+            position: absolute;
+            left: 396px;
+            transform: rotate( 25deg);
+            animation: sec 43200s steps(43200 , end) infinite;
+        }
+        @keyframes sec{
+            to{
+                transform: rotate(360deg );
+            }
+        }
+        img{
+            width: 80px;
+        }
+        #min{
+            position: absolute;
+            left: -40px;
+            top: 177px;
+        }
+        #sec{
+            position: absolute;
+            left: -34px;
+            top: 97px;
+        }
+        #hr{
+            position: absolute;
+            left: -34px;
+            top: 164px;
+        }
+        h1{
+            /* border: 2px solid; */
+            position: absolute;
+            font-size: 40px;
+            font-weight: 700;
+            left: 360px;
+            top: 150px;
+        }
+        </style>
+</head>
+<body>
+    <div class="main">
+    <div class="circle">
+       
+        <!-- <video src="/videoplayback.mp4"></video> -->
+            <div class="analog a"><div class="analog1 min"><img id="min" src="minn.png" alt=""></div></div>
+            <div class="analog b"><div class="analog2 sec"><img id="sec" src="sec.png" alt=""></div></div>
+            <div class="analog c"><div class="analog3 hr"><img id="hr" src="hr.png" alt=""></div></div>
+            <div class="point p1">
+                <div class="one"></div>
+                <div class="two"></div>
+            </div>
+            <div class="point p2">
+                <div class="one"></div>
+                <div class="two"></div>
+            </div>
+            <div class="point p3">
+                <div class="one"></div>
+                <div class="two"></div>
+            </div>
+            <div class="point p4">
+                <div class="one"></div>
+                <div class="two"></div>
+        </div>
+        <div class="point p5">
+            <div class="one"></div>
+            <div class="two"></div>
+        </div>
+        <div class="point p6">
+            <div class="one"></div>
+            <div class="two"></div>
+        </div>
+        
+        <h1>Shafik</h1>
+    </div>
+</div>
+</body>
+</html>
